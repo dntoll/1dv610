@@ -1,0 +1,39 @@
+# In which you will learn a bit of programming in the PHP: Hypertext Preprocessor
+
+In this course we will use the PHP programming language. From a software quality viewpoint many would consider PHP 
+to be an odd choice and prefer languages like C# or Java that has much better tool support and causes less controversy. 
+PHP has a reputation of being a mess!
+One of the more entertaining and worthwhile to read blog-posts about PHPs quirks, flaws and problems is this one:  [PHP: a fractal of bad design](https://eev.ee/blog/2012/04/09/php-a-fractal-of-bad-design/).
+I recommend all of you to read that blog post when you feel annoyed about learning PHP.
+
+## The reasons for choosing PHP in this course is:
+ * It is an object oriented programming language and it is easy to learn.
+ * There are free hosting services
+ * There are tons of tutorials, guides and study material online.
+ * The documentation contains a lot of code examples for you to learn from.
+ * I can reuse and improve(reiterate on) assignments from the Programming with PHP-course.
+ * It is still a huge demand for PHP programmers, many of our former students still work with PHP.
+ * There are many ways of solving a problem in PHP, good and bad ways so we can compare and discuss
+  * When programming PHP you must focus on quality to create something a future programmer will be able to maintain and understand.
+
+The main content of the course however is though of as language independent, you will (after the course) be able to apply it to other languages of your own choise. But in this course we will be programming PHP.
+
+##Goals of the first assignment
+A Quick introduction to working with PHP.
+
+After completing the assignment the student should have...
+
+* done a little bit of PHP programming.
+* used if-statements, for-loops and worked with classes and objects.
+* used some strategies for problem solving and debugging without debugger.
+ 
+## Rules 
+Assignment one is an individual assignment, you are not allowed to copy or share solutions from or with other students.
+
+##CSQUIZ
+
+Assignment 1 is done in the online editor CSQUIZ.
+
+Assignment 1 consists of a number of different tasks. Each task has an instruction, an multifile editor area and a number of automated unit tests that needs to be fulfilled before going to the next assignment. There are a couple of task variations and different students may get different tasks or order of tasks.
+
+CSQUIZ allows us to record and replay how the programming tasks were solved. CSQUIZ only records activities in the active browser window. This allows us to improve the tool and tasks as well as learning on how students solve assignments. All recordings are done anonymously unless you add personal information into the coding area, so please do not do that.
