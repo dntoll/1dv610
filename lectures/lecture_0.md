@@ -15,10 +15,12 @@ The lecture content
 * Course litterature
 * Registration issues
 * Questions
- 
 
 ## Slides and such
 Links to a slides will be available here in a day or two after the lecture...
+
+ * https://coursepress.lnu.se/kurs/introduktion-till-mjukvarukvalitet/
+ * https://coursepress.slack.com/messages/1dv610/
 
 ## Recording
 Links to a recording will be available here in a day or two after the lecture...
