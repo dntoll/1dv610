@@ -3,8 +3,10 @@
 The lecture content
 * Course communication strategy
  * Course web
+  * Course web news
  * Slack
  * Email
+ * Skype
 * Course content
  * Lectures
  * Assignments
