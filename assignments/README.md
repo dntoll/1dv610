@@ -18,7 +18,7 @@
   * Campus Kalmar: 3/10, student must bring a computer!
   * Online: 6/10, Student must have working headset and webcam
 
- * Assignment 2. Examination
+ * Assignment 2. Requirements and Quality
   * Terms: Individual assignment. Basic requirements must be completed. Grade weighted on requirement fullfillment and quality of the artifacts. The more requirements fullfilled the better grade. The quality of the provided source code and other artifacts determine the final grade.
   * Deadline 2: A final version may be handed in Thursday w42, 13:00
   * Feedback: Grade and Comments will be emailed 
