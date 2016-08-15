@@ -28,7 +28,7 @@ Följande poängskala används
  * A4. Betyg gives beroende på hur många krav som uppfylls, samt examinators granskning av kodkvalitet med vikterna 0,5, 0,5. (0 - 9)
 
 Exempel: Studenten Lisa är godkänd på A1 och har fått betygen A på A2, men E på A4, betyget för laborationsdelen blir då
-(viktat aritmetiskt medelvärde) (1)*(9 x 0,5 + 5 x 0,5) = 7 vilket ger betyg C.
+(viktat aritmetiskt medelvärde) (1)x(9 x 0,5 + 5 x 0,5) = 7 vilket ger betyg C.
 
 ### Workshop: 1 Workshop (A3)
 För godkänd på workshoppen krävs att A2 är inlämnad i tid och att studenten närvarat under workshoptillfället. (0 | 1)
@@ -41,9 +41,9 @@ På tentamen sätts betyget beroende på poäng (0 - 9)
 Slutbetyg beräknas med ett viktat medelvärde med vikterna 0.6 för laborationsdelen och 0.4 för tentamen. 
 
 Betyg för kursen viktas på följande sätt
-Betyg =  A1 * A3 * ((A2 * 0.5 + A4 * 0.5) * 0.6 + A5 * 0.4)
+Betyg =  A1 x A3 x ((A2 x 0.5 + A4 x 0.5) x 0.6 + A5 x 0.4)
 
 
 Slutbetyg beräknas med ett viktat medelvärde med vikterna 0,5 och 0,5. 
 Exempel: Vi antar att Lisa har C på Laborationerna, är godkänd på workshoppen och skriver B på tentamen.
-7 * 0.6 + 8 * 0.4 = 7,4 avrundas neråt till 7 vilket ger ett C i slutbetyg.
+7 x 0.6 + 8 x 0.4 = 7,4 avrundas neråt till 7 vilket ger ett C i slutbetyg.
