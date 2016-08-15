@@ -1,6 +1,5 @@
-# 1DV610 Introduktion till mjukvarukvalitet
 
-## Mål 
+## Mål (från kursplan)
 Kursens syfte är att ge studenten grundläggande kunskaper inom kvalitet i källkod.
 Efter avslutad kurs förväntas studenten:
  * kunna förklara grundläggande begrepp så som krav, kvalitet, komplexitet, 
