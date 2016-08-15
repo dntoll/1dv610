@@ -36,6 +36,8 @@ För godkänd på workshoppen krävs att A2 är inlämnad i tid och att studente
 ### Tentamen. (A5)
 På tentamen sätts betyget beroende på poäng (0 - 9)
 
+
+### Slutbetyg
 Slutbetyg beräknas med ett viktat medelvärde med vikterna 0.6 för laborationsdelen och 0.4 för tentamen. 
 
 Betyg för kursen viktas på följande sätt
