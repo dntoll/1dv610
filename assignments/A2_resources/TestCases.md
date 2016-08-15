@@ -385,7 +385,7 @@ When user wants to register a registration form should be shown.
  * A form for Registration of a new user is shown
  * A button/link with text "Back to login" is shown.
 
-![After Input](http://goo.gl/yKkHn0)
+![After Input](images/tc4.1.png)
 
 ***
 
@@ -401,7 +401,7 @@ When user wants to register a registration form should be shown.
  * The text "Not logged in", is shown.
  * Form for login is shown
 
-![After Input](http://goo.gl/B4o438)
+![After Input](images/tc4.2.png)
 
 ***
 
@@ -416,7 +416,7 @@ When user wants to register a registration form should be shown.
  * The text "Not logged in", is shown.
  * Still shows the register form
 
-![After Input](http://goo.gl/8Qo3HX)
+![After Input](images/tc4.3.png)
 
 ***
 
@@ -432,7 +432,7 @@ When user wants to register a registration form should be shown.
  * The text "Not logged in", is shown.
  * Shows the register form with the name filled in.
 
-![After Input](http://goo.gl/oYGvtO) 
+![After Input](images/tc4.4.png) 
 
 
 ***
@@ -451,7 +451,7 @@ When user wants to register a registration form should be shown.
  * The text "Not logged in", is shown.
  * Shows the register form with the name filled in, like "ad".
   
-![After Input](http://goo.gl/uB1yNe) 
+![After Input](images/tc4.5.png) 
 
 ***
 
@@ -469,7 +469,7 @@ When user wants to register a registration form should be shown.
  * The text "Not logged in", is shown.
  * Shows the register form with the name filled in, like "admina".
 
-![After Input](http://goo.gl/hr1p04) 
+![After Input](images/tc4.6.png) 
 
 ***
 
@@ -487,7 +487,7 @@ When user wants to register a registration form should be shown.
  * The text "Not logged in", is shown.
  * Shows the register form with the name filled in, like "admina".
 
-![After Input](http://goo.gl/p1Wt8G) 
+![After Input](images/tc4.7.png) 
 
 ***
 
@@ -505,7 +505,7 @@ When user wants to register a registration form should be shown.
  * The text "Not logged in", is shown.
  * Shows the register form with the name filled in, like "Admin".
 
-![After Input](http://goo.gl/3gQoTV) 
+![After Input](images/tc4.8.png) 
 
 ***
 
@@ -523,7 +523,7 @@ When user wants to register a registration form should be shown.
  * The text "Not logged in", is shown.
  * Shows the register form with the name filled in but without the tag, like "abc".
 
-![After Input](http://goo.gl/8YK0mX) 
+![After Input](images/tc4.9.png) 
  
 ***
 
@@ -541,7 +541,7 @@ When user wants to register a registration form should be shown.
  * The text "Not logged in", is shown.
  * Shows the login form with the name filled in.
 
-![After Input](http://goo.gl/XwVbBn) 
+![After Input](images/tc4.10.png) 
 
 ##Test case 4.11: Successful login with newly registered user
 
