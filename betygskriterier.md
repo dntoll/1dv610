@@ -3,13 +3,13 @@
 Kursens syfte är att ge studenten grundläggande kunskaper inom kvalitet i källkod.
 Efter avslutad kurs förväntas studenten:
  * kunna förklara grundläggande begrepp så som krav, kvalitet, komplexitet, 
-kodförståelse, teknisk skuld, läsbarhet, och underhållbarhet.
+kodförståelse, teknisk skuld, läsbarhet, och underhållbarhet. (A5)
  * självständigt kunna programmera, skriva om och testa källkod utifrån krav med 
-ett kvalitetsperspektiv.
- * självständigt och i grupp kunna kritiskt granska och värdera källkod.
- *  självständigt kunna redogöra för ett fördjupningsområde inom mjukvarukvalitet.
+ett kvalitetsperspektiv. (A1, A2, A4)
+ * självständigt och i grupp kunna kritiskt granska och värdera källkod. (A3)
+ *  självständigt kunna redogöra för ett fördjupningsområde inom mjukvarukvalitet. (A3)
  *  kunna återberätta, kritiskt granska och värdera information i litteratur om 
-mjukvarukvalitet.
+mjukvarukvalitet.(A5)
 
 För att betygssätta en student måste examinator bestämma hur målen skall examineras. 
 1DV610 examineras med laborationer, workshop och tentamen ( totalt 7.5hp). 
