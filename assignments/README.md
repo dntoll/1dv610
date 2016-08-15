@@ -14,7 +14,7 @@
   * Feedback: Main feedback from other students during Workshop. Help is given during tutoring time and slack.
  
  * Workshop. Working with code by others
-  * Terms: Mandatory. Students will be assigned a group during the workshop. To attend the student MUST have handed in a version on the 29 / 9
+  * Terms: Mandatory. Students will be assigned a group during the workshop. To attend the student MUST have handed in a version of A2 to attend.
   * Campus Kalmar: 3/10, student must bring a computer!
   * Online: 6/10, Student must have working headset and webcam
 
