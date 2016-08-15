@@ -41,7 +41,7 @@ På tentamen sätts betyget beroende på poäng (0 - 9)
 Slutbetyg beräknas med ett viktat medelvärde med vikterna 0.6 för laborationsdelen och 0.4 för tentamen. 
 
 Betyg för kursen viktas på följande sätt
-Betyg =  A3 * (A1 * (A2 * 0.5 + A4 * 0.5) * 0.6 + A5 * 0.4)
+Betyg =  A1 * A3 * ((A2 * 0.5 + A4 * 0.5) * 0.6 + A5 * 0.4)
 
 
 Slutbetyg beräknas med ett viktat medelvärde med vikterna 0,5 och 0,5. 
