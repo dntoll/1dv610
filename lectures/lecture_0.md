@@ -11,7 +11,7 @@ The lecture content
  * Lectures, 1-2 per week, examed during final exam + book
  * Assignments
   * Deadlines on course web
-  * A1 in CSQUIZ (U/G)
+  * A1 in CSQUIZ, direct feedback, recorded (U/G)
   * A2 PHP Login system, Requirements only (A-F)
   * A3 Workshop, Code review + Experiment (U/G)
   * A4 Iteration 2 of A2, Requirements and Code quality (A-F)
