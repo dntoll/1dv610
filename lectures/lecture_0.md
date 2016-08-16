@@ -2,10 +2,10 @@
 
 The lecture content
 * Course communication strategy
- * Course web
-  * Course web news, all changes to the course will be announced here.
- * Slack, questions, preferable in the open channel 
- * Email, personal questions (non personal will be anonymized and 
+ * Course web lectures and assignments under construction.
+ * Course web news, all changes to the course will be announced here.
+ * Slack, frequently checked, for all questions that are not personal, ask them in the open channel!
+ * Email, less frequently checked, personal questions (non personal questions will be anonymized and posted in the open channel)
  * Skype, open during tutoring
 * Course content
  * Lectures, 1-2 per week, examed during final exam + book
@@ -16,6 +16,7 @@ The lecture content
   * A3 Workshop, Code review + Experiment (U/G)
   * A4 Iteration 2 of A2, Requirements and Code quality (A-F)
   * A5 Final Exam on the book and lecture content (A-F)
+  * We use Ticknik to find cheaters so do not copy code
 * Course litterature, get it now!, java 
 * Registration issues
 * Questions
