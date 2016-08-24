@@ -25,7 +25,7 @@ https://coursepress.lnu.se/kurs/introduktion-till-mjukvarukvalitet/
 
 Redan nu kan jag varna för att jag kan komma att vara något oanträffbar i början av kursen. Jag ber er att ha överseende med det, och jag kommer meddela ev frånvaro från schemalagd tid på kurshemsidan.
 
-Det kommer bli riktigt roligt att diskutera kodkvalitet, programmera och se er!
+Jag ser fram emot att diskutera kodkvalitet och programmera med er!
 
 Mvh 
 Daniel Toll
