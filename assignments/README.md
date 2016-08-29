@@ -15,7 +15,7 @@
  
  * Workshop. Working with code by others
   * Terms: Mandatory. Students will be assigned a group during the workshop. To attend the student MUST have handed in a version of A2 to attend.
-  * Campus Kalmar: 3/10, student must bring a computer!
+  * Campus Kalmar: 5/10, student must bring a computer!
   * Online: 6/10, Student must have working headset and webcam
 
  * Assignment 2. Requirements and Quality
