@@ -23,7 +23,7 @@ The lecture content
 
 ## Slides and such
 Links to a slides will be available here in a day or two after the lecture...
-
+ * [Slides:](https://docs.google.com/presentation/d/152QhsHqQgJpRAbvaI07WIj-rW73O2M48UAL3x8T7bh4/edit?usp=sharing)
  * https://coursepress.lnu.se/kurs/introduktion-till-mjukvarukvalitet/
  * https://coursepress.slack.com/messages/1dv610/
 
