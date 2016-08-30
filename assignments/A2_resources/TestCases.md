@@ -1,5 +1,3 @@
-##Mandatory Testcases
-
 ##Test case 1.1, Navigate to Page 
 Normal navigation to page, page is shown.
 
