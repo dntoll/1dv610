@@ -1,0 +1,6 @@
+#Ignore logs
+/logs/*
+
+#ignore vagrant
+VagrantFile
+/.vagrant
