@@ -2,25 +2,25 @@
 
 class P {
 
-	public function getP($N) : array {
-		$p = array();
+	private $p = array();
 
+	public function getP($N) : array {
 		$i = 2;
-		while (count($p) < $N) {
-			if ($this->ip($p, $i)) {
-				$p[] = $i;
+		while (count($this->p) < $N) {
+			if ($this->ip($i)) {
+				$this->p[] = $i;
 			}
 			$i++;
 		}
 
-		return $p;
+		return $this->p;
 	}
 
-	private function ip($p, $n) : bool {
-		if ($n == 1)
-			return true;
+	private function ip($n) : bool {
+		if ($n <= 1)
+			return false;
 
-		foreach ($p as $key => $value) {
+		foreach ($this->p as $key => $value) {
 			if ($n % $value == 0) {
 				return false;
 			}
@@ -40,12 +40,13 @@ class PV {
 	}
 
 	public function ob() {
-		$n = $this->instance->getP(1000);
+		$n = $this->instance->getP(55);
 
-		echo "<h2>P</h2>";
+		echo "<h2>P's up to 55</h2>";
 		echo "<ul>";
 		foreach ($n as $key => $value) {
-			echo "<li>$value</li>";
+			$key = $key+1;
+			echo "<li>#$key. $value</li>";
 		}
 		echo "</ul>";
 
