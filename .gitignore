@@ -1,6 +1,3 @@
-#Ignore logs
-/logs/*
-
 #ignore vagrant
 VagrantFile
-/.vagrant
+/lectures/examples/.vagrant
