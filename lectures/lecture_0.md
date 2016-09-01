@@ -28,4 +28,6 @@ Links to a slides will be available here in a day or two after the lecture...
  * https://coursepress.slack.com/messages/1dv610/
 
 ## Recording
-Links to a recording will be available here in a day or two after the lecture...
+[Connect Recording](https://connect.sunet.se/p5gqdtuxdxh/?OWASP_CSRFTOKEN=d57e7c93ffc877b17feaad14e73aa639beacef60fa9844c8b795d2f32eef6241)
+
+
