@@ -7,7 +7,7 @@ The lecture content
 * Testing
 
 ## Slides and such
- [Lecture 2 Slides](https://github.com/dntoll/1dv610/raw/master/lectures/slides/Lecture%202.pdf)
+ [Lecture 2 Slides](https://github.com/dntoll/1dv610/raw/master/lectures/slides/Lecture_2.pdf)
 
 ## Recording
 [Connect Recording](https://connect.sunet.se/p4j23frdhjw)
