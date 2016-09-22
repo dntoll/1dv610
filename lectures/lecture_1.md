@@ -14,4 +14,6 @@ The lecture content
 ## Recording
 [Connect Recording](https://connect.sunet.se/p2bavux4tdk)
 
-Unfortunately no mp4/tube recording available for this lecture... 
+[Youtube Recording Part 1](https://www.youtube.com/watch?v=MY5b4hxDioo)
+
+[Youtube Recording Part 2](https://www.youtube.com/watch?v=l67pDMbHEfM)
