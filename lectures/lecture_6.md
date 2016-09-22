@@ -10,5 +10,6 @@ The lecture content
 ## Recording
 
 [Connect Recording](https://connect.sunet.se/p3h4ocj1zon/?OWASP_CSRFTOKEN=d57e7c93ffc877b17feaad14e73aa639beacef60fa9844c8b795d2f32eef6241)
+[Youtube recording](https://youtu.be/RHzL36q-K0g)
 
 Rendering of mp4 in progress...
