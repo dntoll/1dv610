@@ -12,6 +12,4 @@ The lecture content
 ## Recording
 [Connect Recording](https://connect.sunet.se/p4j23frdhjw)
 
-[Youtube Recording](https://www.youtube.com/watch?v=MY5b4hxDioo)
-[Youtube Recording](https://www.youtube.com/watch?v=l67pDMbHEfM)
 
