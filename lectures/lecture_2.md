@@ -12,4 +12,4 @@ The lecture content
 ## Recording
 [Connect Recording](https://connect.sunet.se/p4j23frdhjw)
 
-Unfortunately no mp4/tube recording available for this lecture... 
+
