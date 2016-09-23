@@ -10,6 +10,8 @@ class PrimeNumbersView {
 	private static $URL_MIN_PRIME = "primeMin";
 	private static $URL_MAX_PRIME = "primeMex";
 
+	private $message = "";
+
 	public function __construct()  {
 		
 	}
@@ -22,14 +24,26 @@ class PrimeNumbersView {
 		echo "</ol>";
 	}
 
-	public function getLargestPrimeNumberFromUser() : int {
+	public function getPrimeNumberRange() : \model\PrimeRange {
+		$min = $this->getSmallestPrimeNumberFromUser();
+		$max = $this->getLargestPrimeNumberFromUser();
+		try {
+			return new \model\PrimeRange($min, $max);
+		} catch (\Exception $e) {
+
+			$this->message = "The smallest prime must be lower than the highest.";
+			return new \model\PrimeRange($max, $min);
+		}
+	}
+
+	private function getLargestPrimeNumberFromUser() : int {
 		if (isset($_GET[self::$URL_MAX_PRIME]))
 			return $_GET[self::$URL_MAX_PRIME];
 		else
 			return self::$DEFAULT_MAX_PRIME;
 	}
 
-	public function getSmallestPrimeNumberFromUser() : int {
+	private function getSmallestPrimeNumberFromUser() : int {
 		if (isset($_GET[self::$URL_MIN_PRIME]))
 			return $_GET[self::$URL_MIN_PRIME];
 		else
@@ -40,7 +54,7 @@ class PrimeNumbersView {
 		$lowest = $this->getSmallestPrimeNumberFromUser();
 		$last = $this->getLargestPrimeNumberFromUser();
 
-		echo "<form method='GET'>
+		echo "<p>$this->message</p><form method='GET'>
 				<input type='text' name='".self::$URL_MIN_PRIME."' value='$lowest'/><br/>
 				<input type='text' name='".self::$URL_MAX_PRIME."' value='$last'/>
 				<input type='submit' value='sned'/>

@@ -2,6 +2,8 @@
 
 namespace model;
 
+require_once("PrimeRange.php");
+
 class PrimeNumbers {
 
 	private $allPrimesToLargest = array();
@@ -9,14 +11,13 @@ class PrimeNumbers {
 
 	private static $FIRST_PRIME_NUMBER = 2;
 
-	public function __construct(int $lowestGenerated, 
-							    int $largestGenerated) {
+	public function __construct(PrimeRange $range) {
 		
-		for ($i=self::$FIRST_PRIME_NUMBER; $i <= $largestGenerated; $i++) { 
+		for ($i=self::$FIRST_PRIME_NUMBER; $i <= $range->getMax(); $i++) { 
 			if ($this->isPrime($i)) {
 				$this->allPrimesToLargest[] = $i;
 
-				if ($i >= $lowestGenerated)
+				if ($i >= $range->getMin())
 					$this->primeNumbersFoundInRange[] = $i;
 			}
 		}

@@ -14,11 +14,10 @@ class ListNumbersController {
 		//hantera indata
 		
 
-		$minPrime = $this->view->getSmallestPrimeNumberFromUser();
-		$maxPrime = $this->view->getLargestPrimeNumberFromUser();
-
+		$primeNumberRange = $this->view->getPrimeNumberRange();
+		
 		//generera primtal
-		$primeNumbers = new \model\PrimeNumbers($minPrime, $maxPrime);
+		$primeNumbers = new \model\PrimeNumbers($primeNumberRange);
 
 
 
