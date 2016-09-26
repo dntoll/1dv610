@@ -6,13 +6,14 @@
 interface FilePathVisitor {
 	function visitFile(File $file);
 	function visitFolder(Folder $folder);
+	function visitOther(OtherFile $other);
 }
 
 abstract class FilePathElement {
 	private $relativePath;
 
 	public function __construct(string $relativePath) {
-		assert(file_exists($relativePath));
+		assert(file_exists($relativePath), "File not exists $relativePath");
 
 		$this->relativePath = $relativePath;
 	}

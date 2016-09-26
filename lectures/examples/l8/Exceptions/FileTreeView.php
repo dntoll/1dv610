@@ -15,6 +15,10 @@ class FileTreeView implements FilePathVisitor {
 		echo $file->getName();
 	}
 
+	public function visitOther(OtherFile $file) {
+		echo $file->getName() . " is other";
+	}
+
 	public function visitFolder(Folder $folder) {
 		echo $folder->getName();
 

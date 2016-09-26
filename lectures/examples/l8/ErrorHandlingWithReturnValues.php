@@ -31,8 +31,10 @@ function viewTree(string $folderPath) : bool {
 					$ok = viewTree($fullFilePath);
 					if ($ok == FALSE) {
 						logg("could not view subtree $filename");	
+						return false;
 					}
 					echo "</li>";
+
 					 
 				} else if (is_file($fullFilePath)) {
 					echo "<li>";
@@ -63,7 +65,7 @@ $okPath = "/vagrant";
 
 
 // "input from user selects a path"
-$path = $okPath;
+$path = $badPath;
 
 
 if (viewTree($path) == false) {

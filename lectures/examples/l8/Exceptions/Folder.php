@@ -1,5 +1,7 @@
 <?php
 
+require_once("OtherFile.php");
+
 //File Folder.php
 class Folder extends FilePathElement {
 
@@ -47,8 +49,10 @@ class Folder extends FilePathElement {
 
 		if (is_dir($fullFilePath)) {
 			$this->filesInFolder[] = new Folder($fullFilePath);
-		} else {
+		} else if (is_file($fullFilePath)) {
 			$this->filesInFolder[] = new File($fullFilePath);
+		} else {
+			$this->filesInFolder[] = new OtherFile($fullFilePath);
 		}
 	}
 }
