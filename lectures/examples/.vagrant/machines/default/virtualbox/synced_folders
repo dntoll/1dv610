@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/ttoda/programming/1dv610/lectures/examples","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"vagrant-root-data":{"id":"vagrant-root-data","owner":"www-data","group":"www-data","guestpath":"/vagrant/l9/data","hostpath":"/home/ttoda/programming/1dv610/lectures/examples/l9/data","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/ttoda/programming/1dv610/lectures/examples","disabled":false,"__vagrantfile":true}}}
