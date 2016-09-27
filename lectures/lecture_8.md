@@ -13,5 +13,3 @@ The lecture content
 
 [Youtube live Recording](https://www.youtube.com/watch?v=Bg7A1N3_HLg)
 
-
-Rendering of mp4 in progress...
