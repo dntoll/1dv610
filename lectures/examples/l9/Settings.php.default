@@ -4,4 +4,6 @@ class Settings {
 	public static $MYSQL_HOST = "localhost";
 	public static $MYSQL_USER = "Replace with db username"; 
 	public static $MYSQL_PASSWORD = "Replace With DB password";
+
+	public static $DATABASE_NAME = "CitiesDB";
 }

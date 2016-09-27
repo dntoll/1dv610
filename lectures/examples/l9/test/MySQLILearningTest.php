@@ -4,40 +4,71 @@ namespace test;
 
 class MySQLILearningTest {
 
+	private $mysqli;
+	private $databaseName = "MySQLILearningTest";
+	private $tableName = "TestTable";
+
 	public function __construct() {
+
+		//Warning: Must happen in this order (Chained tests)
 		$this->shouldCreateDB();
+
+		$this->shouldCreateTable();
+
+		$this->shouldAddData();
+
+		$this->shouldFetchData();
+
+
 	}
 
 	private function shouldCreateDB() {
 
-		$mysqli = new \mysqli(\Settings::$MYSQL_HOST, 
+		$this->mysqli = new \mysqli(\Settings::$MYSQL_HOST, 
 							 \Settings::$MYSQL_USER, 
 							 \Settings::$MYSQL_PASSWORD);
-/*
-if ($mysqli->connect_errno) {
-    printf("Connect failed: %s\n", $mysqli->connect_error);
-    exit();
-}
 
-if ($mysqli->query("CREATE TEMPORARY TABLE myCity LIKE City") === TRUE) {
-    printf("Table myCity successfully created.\n");
-}
+		assert(0 === $this->mysqli->connect_errno, "Connect failed: " . $this->mysqli->connect_error);
+		
 
+		assert(FALSE !== $this->mysqli->query("DROP DATABASE IF EXISTS $this->databaseName"));
 
-if ($result = $mysqli->query("SELECT Name FROM City LIMIT 10")) {
-    printf("Select returned %d rows.\n", $result->num_rows);
-
-
-    $result->close();
-}
-
-if ($result = $mysqli->query("SELECT * FROM City", MYSQLI_USE_RESULT)) {
-    if (!$mysqli->query("SET @a:='this will not work'")) {
-        printf("Error: %s\n", $mysqli->error);
-    }
-    $result->close();
-}
-
-$mysqli->close();*/
+		assert(FALSE !== $this->mysqli->query("CREATE DATABASE $this->databaseName"));
 	}
+
+	private function shouldCreateTable() {
+		assert($this->mysqli->select_db("$this->databaseName"));
+
+		assert(FALSE !== $this->mysqli->query("
+						CREATE TABLE $this->tableName (pk INT AUTO_INCREMENT PRIMARY KEY, 
+						Field VARCHAR(100)  )"), $this->mysqli->error);
+	}
+
+	private function shouldAddData() {
+		$stmt = $this->mysqli->prepare("INSERT INTO $this->tableName (Field) VALUES(?)");
+		assert($stmt !== FALSE);
+
+		$fieldValue = "testfält";
+
+		assert($stmt->bind_param("s", $fieldValue));
+    	assert($stmt->execute());
+		assert($stmt->close());
+	}
+
+	private function shouldFetchData() {
+		$stmt = $this->mysqli->prepare("SELECT * FROM $this->tableName");
+		assert($stmt !== FALSE);
+
+		assert($stmt->execute());
+
+		assert($stmt->bind_result($pk, $field));
+
+    	assert($stmt->fetch());
+    	assert($stmt->close());
+
+    	//Warning: no connection after this...
+    	assert($this->mysqli->close());
+	}
+		
+
 }
