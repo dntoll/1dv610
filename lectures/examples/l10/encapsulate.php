@@ -9,7 +9,7 @@ class ProductView {
 	}
 
 	public function echoProductsOnSale() {
-		$productsOnSale = $this->pc->getProducts("WHERE onSALE == true");
+		$productsOnSale = $this->pc->getProductsOnSale();
 
 		echo "<ol>";
 		foreach($productsOnSale as $p) {
@@ -36,19 +36,19 @@ class ProductCatalog {
 		$this->dal = $storage;
 	}
 
-	public function getProducts(string $whereSQL) : array {
-		return $this->dal->selectAll($whereSQL);
+	public function getProductsOnSale() : array {
+		return $this->dal->selectAllProductsOnSale();
 	}
 }
 
 interface ProductDAL {
-	public function selectAll(string $whereSQL) : array;
+	public function selectAllProductsOnSale() : array;
 }
 
 
 class ProductDB implements ProductDAL {
-	public function selectAll(string $whereSQL) : array {
-		$sql = "SELECT FROM 'Products' $whereSQL";
+	public function selectAllProductsOnSale() : array {
+		$sql = "SELECT FROM 'Products' $whereSQL WHERE onSale = 'true'";
 
 		return array(new Product(), new Product() ); //totally fejk
 	}
@@ -57,7 +57,7 @@ class ProductDB implements ProductDAL {
 
 
 class ProductFile implements ProductDAL {
-	public function selectAll(string $whereSQL) : array {
+	public function selectAllProductsOnSale() : array {
 		//????	
 	}
 }

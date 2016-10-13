@@ -16,23 +16,35 @@ class Product {
 //view
 class ProductView {
 
+	private $TITLE_IN_URL = "ProductView::title";
+
 	public function echoProduct(Product $p) {
 		$title = $p->getTitle();
 		echo "
 			<h2>The Title is : $title</h2>
-			<form>
+			<form method='post'>
 
-				Title:<input type='text' name='Tit1e' value='$title'/> 
+				Title:<input type='text' name='$this->TITLE_IN_URL' value='$title'/> <!--dep -->
 				<input type='submit' value='Submit'>
 			</form>";
+	}
+
+	public function adminSubmitsTitle() : bool{
+		return isset($_POST[$this->TITLE_IN_URL]);
+	}
+
+	public function getTitle() : string {
+		return $_POST[$v->TITLE_IN_URL];
 	}
 }
 
 //controller
 class ProductAdminController {
 	public function changeTitles($m) {
-		if (isset($_GET['Title'])) {
-			$m->setTitle($_GET['Title']); 
+		$v = new ProductView();
+		if ($v->adminSubmitsTitle()) { //dep
+			$newTitle = $v->getTitle();
+			$m->setTitle($newTitle); //dep
 		}
 	}
 }
