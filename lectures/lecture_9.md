@@ -8,7 +8,7 @@ The lecture content
 
 
 ## Slides and such
- [Lecture Slides](https://docs.google.com/presentation/d/143J5z_QnHlWZZUxUbE87k3swEJ_jA4TXpWx_lVsq6k0/edit?usp=sharing)
+ [Lecture Slides](https://docs.google.com/presentation/d/1g2b9i3MXQCM57mcp9TPP6LVR6pRrAHFXy7NiAHy-_EU/edit?usp=sharing)
  [Lecture Code](https://github.com/dntoll/1dv610/tree/master/lectures/examples/l9)
 
 ## Recording
