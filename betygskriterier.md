@@ -22,18 +22,21 @@ Följande poängskala används
  * E-5
  * F-0
 
-### Laborationer: 3 laborationer (A1, A2, A4). 
- * A1. Alla uppgifter måste slutföras för att betyg skall sättas. (0 | 1)
- * A2. Betyg gives beroende på hur många krav som uppfylls.  (0 - 9)
- * A4. Betyg gives beroende på hur många krav som uppfylls, samt examinators granskning av kodkvalitet med vikterna 0,5, 0,5. (0 - 9)
+### Laborationer: 3 laborationer (L1, L2, L3). 
+ * L1. Alla uppgifter måste slutföras för att betyg skall sättas. (0 | 1)
+ * L2. Betyg gives beroende på hur många krav som uppfylls.  (0 - 9)
+ * L3. Betyg gives beroende på hur många krav som uppfylls, samt examinators granskning av kodkvalitet med vikterna 0,5, 0,5. (0 - 9)
 
-Exempel: Studenten Lisa är godkänd på A1 och har fått betygen A på A2, men E på A4, betyget för laborationsdelen blir då
+Exempel: Studenten Lisa är godkänd på L1 och har fått betygen A på L2, men E på L3, betyget för laborationsdelen blir då
 (viktat aritmetiskt medelvärde) (1)x(9 x 0,5 + 5 x 0,5) = 7 vilket ger betyg C.
 
-### Workshop: 1 Workshop (A3)
-För godkänd på workshoppen krävs att A2 är inlämnad i tid och att studenten närvarat under workshoptillfället. (0 | 1)
+### Workshop: 1 Workshop (W1)
+För godkänd på workshoppen krävs att L1 är inlämnad i tid (före workshoppen) och att studenten närvarat och arbetat aktivt under hela workshoptillfället. (0 | 1)
 
-### Tentamen. (A5)
+### Workshop: 2 Workshop (W2)
+För godkänd på workshoppen krävs att L2 är inlämnad i tid och att studenten närvarat och arbetat aktivt under hela workshoptillfället. (0 | 1)
+
+### Tentamen. (T1)
 På tentamen sätts betyget beroende på poäng (0 - 9)
 
 
@@ -41,7 +44,7 @@ På tentamen sätts betyget beroende på poäng (0 - 9)
 Slutbetyg beräknas med ett viktat medelvärde med vikterna 0.6 för laborationsdelen och 0.4 för tentamen. 
 
 Betyg för kursen viktas på följande sätt
-Betyg =  A1 x A3 x ((A2 x 0.5 + A4 x 0.5) x 0.6 + A5 x 0.4)
+Betyg =  L1 x W1 x W2 x ((L2 x 0.5 + L3 x 0.5) x 0.6 + T1 x 0.4)
 
 
 Slutbetyg beräknas med ett viktat medelvärde med vikterna 0,5 och 0,5. 
