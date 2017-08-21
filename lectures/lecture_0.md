@@ -5,6 +5,7 @@ The lecture content
  * Course web lectures and assignments under construction.
  * Course web news, all changes to the course will be announced here.
  * Slack, frequently checked, for all questions that are not personal, ask them in the open channel!
+  * https://coursepress.slack.com/messages/1dv610/
  * Email, less frequently checked, personal questions (non personal questions will be anonymized and posted in the open channel)
  * Skype, open during tutoring
 * Course content
@@ -24,8 +25,7 @@ The lecture content
 
 ## Slides and such
 Links to a slides will be available here in a day or two after the lecture...
- * [Slides:](https://docs.google.com/presentation/d/152QhsHqQgJpRAbvaI07WIj-rW73O2M48UAL3x8T7bh4/edit?usp=sharing)
- * https://coursepress.slack.com/messages/1dv610/
+  
 
 ## Recording
 ... to be presented
