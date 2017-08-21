@@ -11,11 +11,12 @@ The lecture content
  * Lectures, 1-2 per week, examed during final exam + book
  * Assignments
   * Deadlines on course web
-  * A1 in CSQUIZ, direct feedback, recorded (U/G)
-  * A2 PHP Login system, Requirements only (A-F)
-  * A3 Workshop, Code review + Experiment (U/G)
-  * A4 Iteration 2 of A2, Requirements and Code quality (A-F)
-  * A5 Final Exam on the book and lecture content (A-F)
+  * L1 in CSQUIZ, direct feedback, recorded (U/G)
+  * W1, nästa vecka!
+  * L2 PHP Login system, Requirements only (A-F)
+  * W2 Workshop, Code review + Experiment (U/G)
+  * L3 Iteration 2 of A2, Requirements and Code quality (A-F)
+  * T1 Final Exam on the book and lecture content (A-F)
   * We use Ticknik to find cheaters so do not copy code
 * Course litterature, get it now!, java 
 * Registration issues
