@@ -28,6 +28,6 @@ Links to a slides will be available here in a day or two after the lecture...
   
 
 ## Recording
-... to be presented
+... link in L1 (https://www.youtube.com/watch?v=71YYb4Ilc1E)
 
 
