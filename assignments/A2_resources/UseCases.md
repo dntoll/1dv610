@@ -1,12 +1,12 @@
-##Requirement specification 0.4 2016
+## Requirement specification 0.4 2016
 Editor: Daniel Toll
 
 
-##Secure Authentication component for the web.
+## Secure Authentication component for the web.
 
 The system is a software component that provides secure authentication for the web. The component should be used by several applications and programmers. Therefore it is important to provide a component aimed primarely to the programmer.
 
-###Supplementary specification
+### Supplementary specification
 System Quality Requirements
  * The system should respond to input in an acceptable timeframe.
  * The system should be user-friendly
