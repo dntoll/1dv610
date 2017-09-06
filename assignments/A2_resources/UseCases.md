@@ -25,7 +25,7 @@ Other Considerations
  * The system should be written in only in PHP.
 
 # UC1 Authenticate user
-##Main scenario
+## Main scenario
  1. Starts when a user wants to authenticate.
  2. System asks for username, password, and if system should save the user credentials
  3. User provides username and password
