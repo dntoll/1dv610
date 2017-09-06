@@ -60,7 +60,7 @@ UC1. 3a   User wants the system to keep user credentials for easier login.
   1. System presents error message
   2. Step 2 in UC1.
 
-## UC4. Register a new user
+# UC4. Register a new user
 
 ### Main scenario
  * Starts when a user wants to create login-credentials
