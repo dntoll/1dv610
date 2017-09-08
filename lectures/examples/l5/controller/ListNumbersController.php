@@ -23,9 +23,9 @@ class ListNumbersController {
 
 		//generera utdata
 		
-		//låt användaren mata in (visa formulär)
 		$view = new \view\PrimeNumbersView($primeNumbers);
 		
+		//låt användaren mata in (visa formulär)
 		$view->showPrimeNumberInput();
 
 		//visa genererade primtal 
