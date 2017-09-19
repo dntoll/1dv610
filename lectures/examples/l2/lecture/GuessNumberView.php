@@ -28,13 +28,14 @@ class GuessNumberView {
 		echo "Du gissade : " . $this->getGuessedNumber() . ". ";
 	}
 
-	public function getGuessedNumber() : \model\GuessedNumber {
-		if (isset($_REQUEST[self::$FORM_GUESS_NUMBER])) {
-			$ret = $_REQUEST[self::$FORM_GUESS_NUMBER];
-			return new \model\GuessedNumber($ret);
-		}
+	public function userHasGuessed() : bool {
+		return isset($_REQUEST[self::$FORM_GUESS_NUMBER]);
+	}
 
-		throw new \Exception("Not a valid guess");
+	public function getGuessedNumber() : \model\GuessedNumber {
+		//Warning: must only be called if userHasGuessed returns true;
+		$ret = $_REQUEST[self::$FORM_GUESS_NUMBER];
+		return new \model\GuessedNumber($ret);
 	}
 
 	public function showSuccess() {
@@ -47,5 +48,14 @@ class GuessNumberView {
 		} else {
 			echo "Mitt nummer är mindre!";
 		}
+	}
+
+	public function showNotANumberError() {
+		echo "Du måste mata in ett nummer! ";
+	}
+
+	public function showNotInRangeError() {
+		//TODO Magiska nummer från modellen!!!
+		echo "Du måste mata in ett nummer mellan " . \model\GuessedNumber::$MIN_GUESS . " - " . \model\GuessedNumber::$MAX_GUESS. "! ";
 	}
 }

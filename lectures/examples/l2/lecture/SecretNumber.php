@@ -12,7 +12,6 @@ class SecretNumber {
 		
 		if ($this->weDontHaveASecret()) {
 			$this->generateSecret();
-		
 		}
 		$this->secret = $this->getSavedNumber();
 	}

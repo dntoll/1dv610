@@ -5,21 +5,23 @@ namespace model;
 class GuessedNumber {
 	private $number;
 	public static $MAX_GUESS = 255;
+	public static $MIN_GUESS = 0;
 
 	public function __construct($candidate) {
 		if (is_numeric($candidate) ) {
 			$this->assignIfRangeIsOk($candidate);
 		} else {
-			throw new \Exception("Not a number");
+			throw new NotNumberException();
 		}
 	}
 
 	private function assignIfRangeIsOk(int $candidate) {
-		$inRange = ( $candidate >= 0 && $candidate <= self::$MAX_GUESS);
+		//TODO Remove the magic number 0
+		$inRange = ( $candidate >= self::$MIN_GUESS && $candidate <= self::$MAX_GUESS);
 		if ($inRange) { 
 			$this->number = $candidate;
 		} else {
-			throw new \Exception("Not in range");
+			throw new NotInRangeException();
 		}
 	}
 
