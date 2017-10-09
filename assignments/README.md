@@ -20,7 +20,7 @@
 
  * L3. Requirements and Quality
   * Terms: Individual assignment. Basic requirements must be completed. Grade weighted on requirement fullfillment and quality of the artifacts. The more requirements fullfilled the better grade. The quality of the provided source code and other artifacts determine the final grade.
-  * Deadline 2: 13/10, 13:00
+  * Deadline 2: 13/10, 23:59
   * Feedback: Grade and Comments will be emailed
 
  * Final Exam 20 /10, Second attempt 27/10
