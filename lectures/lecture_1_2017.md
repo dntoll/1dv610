@@ -11,4 +11,5 @@ The lecture content
  
 
 ## Recording
-[Youtube recording](https://www.youtube.com/watch?v=71YYb4Ilc1E)
+ * 2018 [Intro + Lecture 1 (Swedish)](https://www.youtube.com/watch?v=jeQoWZ_-Jjw)
+ * 2017 [Youtube recording](https://www.youtube.com/watch?v=71YYb4Ilc1E)
