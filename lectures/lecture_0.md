@@ -28,6 +28,8 @@ Links to a slides will be available here in a day or two after the lecture...
   
 
 ## Recording
-... link in L1 (https://www.youtube.com/watch?v=71YYb4Ilc1E)
+
+ * 2018 https://www.youtube.com/watch?v=jeQoWZ_-Jjw
+ * 2017... link in L1 (https://www.youtube.com/watch?v=71YYb4Ilc1E)
 
 
