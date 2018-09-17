@@ -11,4 +11,6 @@ The lecture content
  [Lecture Code](https://github.com/dntoll/1dv610/tree/master/lectures/examples/l2/lecture)
 
 ## Recording
-[Youtube recording](https://www.youtube.com/watch?v=mBGC5XEjfJY)
+
+[Youtube recording 2018](https://www.youtube.com/watch?v=j0YEQV3Ii08)
+[Youtube recording 2017](https://www.youtube.com/watch?v=mBGC5XEjfJY)
