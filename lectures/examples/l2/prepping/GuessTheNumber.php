@@ -1,9 +1,9 @@
 <?php
 
-
+//NOTE This is for prepping
 class GuessGameModel {
-	private static $SESSION_NUMBER_INDEX = "GuessGameModel::NumberIndex";
-	private static $SESSION_NUMBER_OF_GUESSES_INDEX = "GuessGameModel::GuessesIndex";
+	private static $SESSION_NUMBER_INDEX = __CLASS__ . "::NumberIndex";
+	private static $SESSION_NUMBER_OF_GUESSES_INDEX = __CLASS__ . "::GuessesIndex";
 
 	private static $MAX_NUMBER = 255;
 
@@ -65,7 +65,7 @@ class GuessNumberView {
 		return false;
 	}
 
-	public function hasInvalidInput() {
+	public function hasInvalidInput() : bool {
 		if (isset($_REQUEST[self::$GUESS_NUMBER_URL_ID])) {
 			return true;
 		}
@@ -77,7 +77,7 @@ class GuessNumberView {
 	}
 
 	
-	public function playerWantsToStartOver() {
+	public function playerWantsToStartOver() : bool {
 		return isset($_REQUEST[self::$START_OVER_URL_ID]);
 	}
 	
@@ -119,8 +119,7 @@ class GuessNumberView {
 	}
 }
 
-//Note this is an example on how NOT to do it
-class DoesOneThing {
+class GuessNumberController {
 
 	public static $DOES_TO_MUCH_URL_ID = "DoesTooMuch";
 
@@ -170,13 +169,8 @@ class DoesOneThing {
 
 //Application...
 session_start();
-$first = new \DoesOneThing();
-
-
-//todo someone should decide who
-if (isset($_GET[DoesOneThing::$DOES_TO_MUCH_URL_ID])) {
-	$first->runGame();
-}
+$first = new \GuessNumberController();
+$first->runGame();
 
 
 

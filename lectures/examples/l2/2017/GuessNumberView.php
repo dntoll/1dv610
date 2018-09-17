@@ -9,8 +9,10 @@ require_once("GuessedNumber.php");
 class GuessNumberView {
 	private static $FORM_GUESS_NUMBER = "view::GuessNumberView::guess";
 
-	public function __construct() {
+	private $secret;
 
+	public function __construct(\model\SecretNumber $secret) {
+		$this->secret = $secret;
 	}
 
 	public function showFormAndTitle() {
@@ -42,8 +44,8 @@ class GuessNumberView {
 		echo "Yess!!!";
 	}
 
-	public function showHint(\model\SecretNumber $secret) {
-		if ($secret->isHigher($this->getGuessedNumber())) {
+	public function showHint() {
+		if ($this->secret->isHigher($this->getGuessedNumber())) {
 			echo "Mitt nummer är större!";
 		} else {
 			echo "Mitt nummer är mindre!";
