@@ -11,13 +11,32 @@ class GameManager {
 	}
 
 	public function lastGuessWasCorrect() : bool {
-
-		$numGuesses = count($this->guesses);
-		return $this->guesses[$numGuesses-1] == $this->getCorrectAnswer();
+		assert($this->hasGuessed());
+		$lastGuess = $this->getLastGuess();
+		return $lastGuess->IsSameAs($this->getCorrectAnswer());
 	}
 
 	public function getCorrectAnswer() : int {
 		//TODO: byt ut den här magiska numret till en riktig lösning.
 		return 7;
+	}
+
+	public function lastGuessWasTooLow() : bool { 
+
+		//TODO train wrecks
+		return $this->getLastGuess()->wasTooLow($this->getCorrectAnswer());
+	}
+
+
+	public function getNumberOfGuesses() : int {
+		return count($this->guesses);
+	}
+
+	public function hasGuessed() : bool {
+		return $this->getNumberOfGuesses() > 0;
+	}
+
+	private function getLastGuess() : GuessedNumber {
+		return $this->guesses[$this->getNumberOfGuesses()-1];
 	}
 }
