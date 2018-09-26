@@ -11,7 +11,7 @@ The lecture content
 
 ## Recording
 
-
-[Youtube recording](https://www.youtube.com/watch?v=aV1Naju82DQ)
+[Youtube recording 2018](https://www.youtube.com/watch?v=cS7wW-H27PI)
+[Youtube recording 2017](https://www.youtube.com/watch?v=aV1Naju82DQ)
 
 
