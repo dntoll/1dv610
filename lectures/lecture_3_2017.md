@@ -7,7 +7,7 @@ The lecture content
 ## Slides and such
  [Lecture Slides](https://docs.google.com/presentation/d/1lRdCrKrwhNxZc4glLkOW6PzPenUcr_jN-cc83TrA_4c/edit?usp=sharing)
  
- [Lecture Code](https://github.com/dntoll/1dv610/tree/master/lectures/examples/l2/lecture)
+ [Lecture Code](https://github.com/dntoll/1dv610/tree/master/lectures/examples/l2/2018)
 
 ## Recording
 
