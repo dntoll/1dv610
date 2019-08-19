@@ -4,7 +4,11 @@
   * Deadline: See schedule
   * Examination: Automatic assessment of completed tasks.
   * Feedback: Automatic assessment in CSQUIZ. Ask questions during tutoring time and slack.
- 
+ * W1. Coding with others
+  * Terms: Mandatory. Student will be assigned a group during workshop. To attend the student MUST have started L2.
+  * Campus Kalmar: (see schedule), student must bring a computer!
+  * Online: (see schedule), Student must have working headset and webcam
+  
  * L2. Working with requirements and tests
   * Terms: Individual assignment, no code may be copied from other students or any other source. 
     Basic requirments must be completed for an approved grade. Grade assigned from requirement fullfillment, the more requirements fullfilled the better grade.
