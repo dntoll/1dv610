@@ -18,7 +18,9 @@ class M {
 		return true;
 	}
 }
+
 class MV {
+	private $m;
 	public function __construct(M $m)  {
 		$this->m = $m;
 	}
