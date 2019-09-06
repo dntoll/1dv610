@@ -5,7 +5,7 @@
   * Examination: Automatic assessment of completed tasks.
   * Feedback: Automatic assessment in CSQUIZ. Ask questions during tutoring time and slack.
  * W1. Coding with others
-  * Terms: Mandatory. Student will be assigned a group during workshop. To attend the student MUST have started L2.
+  * Terms: Mandatory. Student will be assigned a group during workshop. To attend the student MUST have completed L1.
   * Campus Kalmar: (see schedule), student must bring a computer!
   * Online: (see schedule), Student must have working headset and webcam
   
