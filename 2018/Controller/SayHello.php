@@ -10,18 +10,21 @@ class SayHello {
 	private $view;
 	private $user;
 
-	public function __construct(\Model\User $user) {
+	public function __construct(\Model\User $user, \View\HelloView $view) {
 		$this->user = $user;
-		$this->view = new \View\HelloView($this->user);
+		$this->view = $view;
 		
 	}
 
-	public function doHello() : string {
-		if ($this->view->userWantsToSayHello()) {
+	public function doChangeUserName()  {
+		if ($this->view->userWantsToChangeName()) {
 			$name = $this->view->getUserName();
-			$this->user->setName($name);
-		}
 
-		return $this->view->show();
+			try {
+				$this->user->setName($name);
+			} catch (\Exception $e) {
+				$this->view->setNameWasTooShort();
+			}
+		}
 	}
 }

@@ -1,15 +1,13 @@
 <?php
 
-require_once("Controller/SayHello.php");
-require_once("View/HelloView.php");
-require_once("Model/User.php");
-require_once("Model/UserStorage.php");
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 
-$storage = new \Model\UserStorage();
+require_once("Application.php");
 
-$user = $storage->loadUser();//new \Model\User();
-$c = new \Controller\SayHello($user);
-$storage->saveUser($user);
 
-echo $c->doHello();
+$app = new Application();
+$app->run();
+
