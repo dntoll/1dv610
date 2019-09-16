@@ -25,7 +25,6 @@ class GuessGameModel {
 	}
 
 	public function getGuessesCount() {
-
 		return $_SESSION[self::$SESSION_NUMBER_OF_GUESSES_INDEX];	
 	}
 

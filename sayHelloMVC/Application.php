@@ -1,7 +1,7 @@
 <?php
 
 
-require_once("Model/User.php");
+require_once("Model/UserName.php");
 require_once("Model/UserStorage.php");
 require_once("Controller/SayHello.php");
 require_once("View/HelloView.php");

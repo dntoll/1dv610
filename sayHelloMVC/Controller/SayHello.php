@@ -10,7 +10,7 @@ class SayHello {
 	private $view;
 	private $user;
 
-	public function __construct(\Model\User $user, \View\HelloView $view) {
+	public function __construct(\Model\UserName $user, \View\HelloView $view) {
 		$this->user = $user;
 		$this->view = $view;
 		
@@ -18,9 +18,8 @@ class SayHello {
 
 	public function doChangeUserName()  {
 		if ($this->view->userWantsToChangeName()) {
-			$name = $this->view->getUserName();
-
 			try {
+				$name = $this->view->getUserName();
 				$this->user->setName($name);
 			} catch (\Exception $e) {
 				$this->view->setNameWasTooShort();

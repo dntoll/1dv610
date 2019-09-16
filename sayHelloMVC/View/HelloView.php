@@ -9,7 +9,7 @@ class HelloView {
 	private $nameWasTooShort = false;
 
 
-	public function __construct(\Model\User $toBeViewed) {
+	public function __construct(\Model\UserName $toBeViewed) {
 		$this->user = $toBeViewed;
 	}
 
@@ -17,8 +17,8 @@ class HelloView {
 		return isset($_GET[self::$TEXT_FIELD_ID]);
 	}
 
-	public function getUserName() : string {
-		return trim($_GET[self::$TEXT_FIELD_ID]);	
+	public function getUserName() : \Model\UserName {
+		return new \Model\UserName($this->getInputValueFiltered());	
 	}
 
 
@@ -62,16 +62,16 @@ class HelloView {
 		return "";
 	}
 
-	private function getInputValue() : string {
+	private function getInputValueFiltered() : string {
 		if ($this->userWantsToChangeName()) {
-			$inputValue = $this->getUserName();
-			return htmlentities($inputValue);
+			$inputValue = $_GET[self::$TEXT_FIELD_ID];
+			return \Model\UserName::applyFilter($inputValue);
 		}
 		return "";
 	}
 
 	private function getFormHTML() : string {
-		$filteredInput = $this->getInputValue();
+		$filteredInput = $this->getInputValueFiltered();
 		return "<form method='get'>
 						<input  type='text' name='" . self::$TEXT_FIELD_ID . "' value='" . $filteredInput . "'></input>
 						<input type='submit'>

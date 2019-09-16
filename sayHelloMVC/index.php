@@ -11,3 +11,5 @@ require_once("Application.php");
 $app = new Application();
 $app->run();
 
+
+var_dump($_SESSION);
